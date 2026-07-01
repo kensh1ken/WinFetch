@@ -50,7 +50,6 @@ char* get_hostname(){
 //   static char shell[32] = "PowerShell ";
 //   char version[16];
 //   DWORD size;
-
 //   RegOpenKeyEx(HKEY_LOCAL_MACHINE,
 //                "SOFTWARE\\Microsoft\\PowerShellCore\\InstalledVersions\\{GUID}",
 //                0, KEY_READ, &hkey);

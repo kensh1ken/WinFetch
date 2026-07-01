@@ -82,6 +82,7 @@ char* get_terminal_size(){
   snprintf(tr, sizeof(tr), "%dx%d", width, height);
   return tr;
 }
+
 char* get_resolution_primary(){
   DEVMODE dm;
   dm.dmSize = sizeof(dm);
@@ -90,6 +91,7 @@ char* get_resolution_primary(){
     snprintf(res, sizeof(res), "%lux%lu", dm.dmPelsWidth, dm.dmPelsHeight);
   return res;
 }
+
 char* get_refresh_rate(){
   DEVMODE dm;
   dm.dmSize = sizeof(dm);

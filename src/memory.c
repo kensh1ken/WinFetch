@@ -1,6 +1,7 @@
 #include <windows.h>
 #include <stdio.h>
 #define BtoGiB (1024*1024*1024)
+
 char* get_ram_available(){
   MEMORYSTATUSEX mem;
   mem.dwLength = sizeof(mem);  
