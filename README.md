@@ -5,6 +5,8 @@ An easy and familiar project for first-year CS students to tinker with and make 
 
 ![](image.png)
 
+(Checkout [WinFetchPlus](https://github.com/R1ftzy/WinFetchPlus/) for a more feature rich and advanced version of WinFetch.)
+
 ## Requirements
 - GCC 
 - make
